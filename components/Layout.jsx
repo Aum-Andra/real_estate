@@ -8,21 +8,21 @@ const Layout = ({children}) => {
   return (
    <>
 <Head>
-    <title>Real Estate</title>
+    <title>Resplendency</title>
 </Head>
-<Box maxWidth='1280px' m='auto'>
     <header>
        <Navbar/>
     </header>
+<Box maxWidth='1285px' m='auto'>
     <main>
         {children}
     </main>
 
+
+</Box>
     <footer>
      <Footer/>
     </footer>
-
-</Box>
    </>
   )
 }

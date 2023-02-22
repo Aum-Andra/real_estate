@@ -45,7 +45,7 @@ const PropertyDetails = ({
           p="1"
           justifyContent="space-between"
           w="250px"
-          color="blue.400"
+          color="blackAlpha.900"
         >
           {rooms}
           <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
@@ -109,10 +109,10 @@ const PropertyDetails = ({
               <Text
                 key={amenity.text}
                 fontWeight="bold"
-                color="blue.400"
+                color="whiteAlpha.900"
                 fontSize="l"
                 p="2"
-                bg="gray.200"
+                backgroundColor="blackAlpha.700"
                 m="1"
                 borderRadius="5"
               >

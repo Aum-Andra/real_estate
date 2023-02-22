@@ -46,7 +46,7 @@ import { baseUrl, fetchApi } from '@/utils/fetchApi'
     }, [searchTerm]);
   
     return (
-      <Flex bg='gray.100' p='4' justifyContent='center' flexWrap='wrap'>
+      <Flex backgroundColor='whiteAlpha.100' p='4' justifyContent='center' flexWrap='wrap'>
         {filters?.map((filter) => (
           <Box key={filter.queryName}>
             <Select onChange={(e) => searchProperties({ [filter.queryName]: e.target.value })} placeholder={filter.placeholder} w='fit-content' p='2' >
@@ -59,7 +59,7 @@ import { baseUrl, fetchApi } from '@/utils/fetchApi'
           </Box>
         ))}
         <Flex flexDir='column'>
-          <Button onClick={() => setShowLocations(!showLocations)} border='1px' borderColor='gray.200' marginTop='2' >
+          <Button onClick={() => setShowLocations(!showLocations)}  backgroundColor='blackAlpha.900' color='whiteAlpha.900' marginTop='2' >
             Search Location
           </Button>
           {showLocations && (

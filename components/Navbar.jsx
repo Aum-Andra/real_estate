@@ -8,11 +8,11 @@ import {FiKey} from 'react-icons/fi'
 
 const Navbar = () => {
   return (
-    <Flex p='2' borderBottom='1px' borderColor='gray.100'>
-        <Box fontSize='3xl' color='blue.400' fontWeight='bold'>
+    <Flex p='2' borderBottom='1px'  backgroundColor='blackAlpha.900' borderColor='whiteAlpha.900'>
+        <Box fontSize='3xl' color='whiteAlpha.900' fontWeight='bold'>
 
             <Link href='/' paddingLeft='2'>
-            Real Estate
+            Resplendency
 
             </Link>
 
@@ -20,7 +20,7 @@ const Navbar = () => {
         <Spacer/>
         <Box>
             <Menu>
-<MenuButton as={IconButton} icon={<FcMenu/>} variant='outlined' color='red.400'></MenuButton>
+<MenuButton as={IconButton} icon={<FcMenu/>} variant='outlined' color='whiteAlpha.900'></MenuButton>
 
 <MenuList>
     <Link href='/' passHref>
